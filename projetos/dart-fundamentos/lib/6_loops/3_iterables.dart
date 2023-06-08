@@ -1,12 +1,12 @@
 void main() {
   var numeros = List.generate(10, (index) => index);
 
-  // for (var i = 0; i < numeros.length; i++) {
-  //   if (i == 5) {
-  //     continue;
-  //   }
-  //   print(numeros[i]);
-  // }
+  for (var i = 0; i < numeros.length; i++) {
+    if (i == 5) {
+      continue;
+    }
+    print(numeros[i]);
+  }
 
   numeros.where((numero) => numero != 5).forEach((numero) => print(numero));
 
@@ -41,4 +41,7 @@ void main() {
     return numero + 10;
   }).toList();
   print(numeroList);
+
+  var revertido = numeros.reversed.toList();
+  print(revertido);
 }
