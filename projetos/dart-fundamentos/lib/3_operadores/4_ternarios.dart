@@ -20,7 +20,7 @@ void main() {
 
   final ano = 2024;
   // Isso calcula se o ano é bisexto
-  print((ano % 4 == 0 || ano % 400 == 0 || ano % 100 != 0)
+  print((ano % 4 == 0 || ano % 400 == 0 || ano % 100 == 0)
       ? 'Bisexto'
       : 'Não é Bisexto');
 }

@@ -1,5 +1,5 @@
 void main() {
-  final diaDaSemana = 0;
+  final diaDaSemana = 2;
   var diaDaSemanaStr = '';
 
   switch (diaDaSemana) {

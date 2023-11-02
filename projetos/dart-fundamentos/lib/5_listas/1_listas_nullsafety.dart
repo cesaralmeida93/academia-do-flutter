@@ -4,9 +4,10 @@ void main() {
 
   // Não aceita pode ser nulo
   var nomes = <String>[];
+  print('nomes: $nomes');
 
   // Aceita nulo
-  List<String>? nomesNulos;
+  List<String>? nomesNulos = null;
 
   // Lista não pode ser nulos nem os itens
   List<String> nomesInternosNaoAceitaNulos = ['Rodrigo'];

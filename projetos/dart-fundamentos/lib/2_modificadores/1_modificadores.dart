@@ -10,6 +10,7 @@ void main() {
   // Utilize sem moderação
   final nomeCompletoFinal = 'Rodrigo Rahman';
   final nomeCompletoFInal2 = nomeCompleto;
+  print(nomeCompletoFInal2);
 
   // Varoáveis Const:
   // Não podem ser alteradas depois de inicializadas (Imutáveis)
@@ -19,4 +20,5 @@ void main() {
   // Utilize sem moderação
   const nomeCompletoConst = 'Rodrigo Rahman';
   const nomeCompletoConst2 = nomeCompletoConst;
+  print(nomeCompletoConst2);
 }
