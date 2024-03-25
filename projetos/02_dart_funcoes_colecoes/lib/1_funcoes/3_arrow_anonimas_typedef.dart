@@ -6,7 +6,7 @@ void main() {
   print(funcaoQualquer());
   print(somaInteiros(10, 10));
 
-  funx2((nome, nomeCompleto, {qq, required x, required x2}) => 'null')
+  funx2((nome, nomeCompleto, {qq, required x, required x2}) => 'null');
 }
 
 // 3 partes
